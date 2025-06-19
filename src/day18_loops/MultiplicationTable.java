@@ -17,7 +17,7 @@ package day18_loops;
  */
 public class MultiplicationTable {
     public static void main(String[] args) {
-        int num = 4;
+        int num = 5;
 
         System.out.println(num + " x " + 1 + " = " + num * 1);
         System.out.println(num + " x " + 2 + " = " + num * 2);
