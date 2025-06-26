@@ -20,7 +20,7 @@ import java.util.Scanner;
 public class MaxAndMin {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
-        System.out.print("Please, tell me how many numbers do you want to compare: ");
+        System.out.print("Please, tell me how many numbers do you want to compare: "); // 5 - 23, 12, 43, 65, 13
         int userDesiredCycle = keyboard.nextInt();
         int smallest = 2_147_483_647;
         int biggest = -2_147_483_648;
@@ -45,6 +45,7 @@ public class MaxAndMin {
 
         System.out.println("Biggest: " + biggest);
         System.out.println("Smallest: " + smallest);
+
 
     }
 }
