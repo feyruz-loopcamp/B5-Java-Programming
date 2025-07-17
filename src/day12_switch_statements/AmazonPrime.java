@@ -1,4 +1,7 @@
 package day12_switch_statements;
+
+import day31_custom_classes.Car;
+
 /*
 Task:
     declare and assign a price variable
