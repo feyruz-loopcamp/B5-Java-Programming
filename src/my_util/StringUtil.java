@@ -15,6 +15,22 @@ public class StringUtil {
         return fixed;
     }
 
+
+    /**
+     * This method fixes the format
+     * @param str is the given String
+     * @return fixed format - 1st letter upper and rest lower case for each word
+     */
+    public static String fixFormatForFullName (String str) {
+        String [] words = str.split(" ");
+        String fullName = "";
+
+        for ( String each : words) {
+            fullName += (""+each.charAt(0)).toUpperCase() + each.substring(1).toLowerCase() + " ";
+        }
+        return fullName.trim();
+    }
+
     /**
      * This method counts the letter appearance in word
      * @param word is teh given String
