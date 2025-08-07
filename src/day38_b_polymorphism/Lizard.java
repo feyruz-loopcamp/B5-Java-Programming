@@ -7,4 +7,5 @@ public class Lizard extends Reptile {
     public void eat() {
         System.out.println("LIZARD is eating.....");
     }
+
 }
