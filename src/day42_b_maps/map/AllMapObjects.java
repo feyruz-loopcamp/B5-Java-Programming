@@ -58,7 +58,7 @@ public class AllMapObjects {
                     - random order based on KEY
                     - KEYs: no duplicate
                     - VALUEs: duplicates are OK
-                    - KEys: null is OK
+                    - KEYs: null is OK
                     - VALUEs: null is OK
 
                 LinkedHashMap
